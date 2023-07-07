@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input-option356 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.input-option356:after {
+  content: "";
+  clear: both;
+}
+
+.radio {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  float: left;
+  height: 70px;
+  position: relative;
+  width: 120px;
+}
+
+.radio + .radio {
+  margin-left: 25px;
+}
+
+.radio label {
+  background: #fff no-repeat center center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+}
+
+.radio label span {
+  z-index: 1;
+}
+.radio label input[type=radio] {
+  all: unset;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.radio label input[type=radio]:checked {
+  background-color: red;
+}
+.radio label input[type=radio]:checked + span{
+  color: #ffffff;
+}
+    </style>
+</head>
+<body>
+    <div id="input-option356">
+        <div class="radio">
+          <label>
+            <input type="radio" name="option[356]" value="288">
+            <span>44</span>
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="option[356]" value="282">
+            <span>38</span>
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="option[356]" value="283">
+            <span>39</span>
+          </label>
+        </div>
+      </div>
+</body>
+</html>
